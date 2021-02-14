@@ -20,3 +20,9 @@ const double DOUBLE_INFINITY = double.infinity;
 const String TITLE_WELCOME = "¿Estás listo para el desafío?";
 const String TITLE_WELCOME_INFO = "Ingresa tu información";
 const String TITLE_WELCOME_OKBUTTON = "¡Inicia el juego!";
+const String TEXT_HOME_SKIP = "Skip";
+
+// Resources
+
+const String PATH_BACKGROUND_IMAGE = "assets/icons/bg.jpg";
+const String PATH_CLOCK_SVG = "assets/icons/clock.svg";

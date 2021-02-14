@@ -21,7 +21,7 @@ class Welcome extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/icons/bg.jpg"), fit: BoxFit.cover)),
+              image: AssetImage(PATH_BACKGROUND_IMAGE), fit: BoxFit.cover)),
     );
   }
 
