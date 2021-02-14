@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:triviapp/screens/home.dart';
 import 'package:triviapp/screens/welcome.dart';
 
 class Triviapp extends StatelessWidget {
@@ -8,7 +9,7 @@ class Triviapp extends StatelessWidget {
       title: "Triviapp",
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: Welcome(),
+      home: new Home(),
     );
   }
 }

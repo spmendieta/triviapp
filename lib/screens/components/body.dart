@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:triviapp/screens/components/timer.dart';
 import 'package:triviapp/util/constants.dart';
+import 'package:websafe_svg/websafe_svg.dart';
 
 class Body extends StatelessWidget {
   const Body({Key key}) : super(key: key);
@@ -7,7 +9,7 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [_createBackground(), _createTimer()],
+      children: [_createBackground(), _createTimer(context)],
     );
   }
 
@@ -19,19 +21,11 @@ class Body extends StatelessWidget {
     );
   }
 
-  Widget _createTimer() {
+  Widget _createTimer(BuildContext context) {
     return SafeArea(
         child: Padding(
       padding: EdgeInsets.symmetric(horizontal: DEFAULT_PADDING),
-      child: Column(
-        children: [
-          Container(
-            width: DOUBLE_INFINITY,
-            height: 35,
-            color: Colors.white,
-          )
-        ],
-      ),
+      child: Column(children: [new Timer()]),
     ));
   }
 }
