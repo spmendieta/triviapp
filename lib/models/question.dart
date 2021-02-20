@@ -10,7 +10,7 @@ const List sample_data = [
   {
     "id": 1,
     "question":
-        "Flutter is an open-source UI software development kit created by ______",
+        "El aposto Pablo, era conocido con un nombre diferente antes de ser predicador de Cristo. Dicho nombre es ______",
     "options": ['Apple', 'Google', 'Facebook', 'Microsoft'],
     "answer_index": 1,
   },
